@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Microblog::Application.config.secret_token = 'd16a7b8e9cdded75d02e932036c1e258e5348425d6a8cf741baaa4dd81b6968fc0aade725f8d8d54d4ca9e676519c602f23bc14969d4162c7c1b35ad5388b660'
+Microblog::Application.config.secret_token = 'b4a7e0e731e2fc0f1b633746328188e9c69d150b6115f91b74ec4905bd28c03beb35accec7f0944453620643e7b540eded69ba43c0279b44a1062f34a9590151'
