@@ -1,6 +1,11 @@
 Microblog::Application.routes.draw do
+  devise_for :users
+
+  get "sign_up" => "users#new", :as => "sign_up"
+
   get "home/index"
 
+  resources :users
   resources :posts
 
 

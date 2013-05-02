@@ -42,3 +42,6 @@ gem 'jquery-rails'
 
 # Wysiwyg
 gem 'bootstrap-wysihtml5-rails'
+
+# Devise authentification
+gem 'devise'
