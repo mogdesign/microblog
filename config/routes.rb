@@ -5,6 +5,8 @@ Microblog::Application.routes.draw do
 
   get "home/index"
 
+  match '/posts/list' => 'posts#list'
+
   resources :users
   resources :posts
 
