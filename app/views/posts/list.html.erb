@@ -7,7 +7,7 @@
         <h4 class="media-heading"><%= link_to post.title, post_path(post) %></h4>
         <span class="label label-default"><%= post.author %></span>
         <span class="label label-default"><%= post.created_at.strftime("%d %b. %Y") %></span>
-        <p><%= post.body.html_safe %></p>
+        <p><%= strip_tags(post.body[0..450]) %>...</p>
       </div>
     </li>
   <% end %>
