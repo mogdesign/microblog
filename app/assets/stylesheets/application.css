@@ -40,7 +40,3 @@ html, body {
 #push, #footer {
   height: 60px;
 }
-
-textarea {
-  width: auto;
-}
