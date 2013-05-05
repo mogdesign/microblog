@@ -1,4 +1,8 @@
 class PostsController < ApplicationController
+
+  # Setup authentification fort this controller
+  before_filter :authenticate_user!, :only => [:index, :new, :edit, :create, :update, :destroy]
+
   # GET /posts
   # GET /posts.json
   def index
