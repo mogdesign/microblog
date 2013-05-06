@@ -45,3 +45,6 @@ gem 'bootstrap-wysihtml5-rails'
 
 # Devise authentification
 gem 'devise'
+
+# Tagging
+gem 'acts-as-taggable-on'
